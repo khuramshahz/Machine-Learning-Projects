@@ -1,0 +1,62 @@
+/* Background */
+.main-bg {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    
+
+
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    max-width: 450px;
+    width: 90%;
+    transition: all 0.3s ease;
+}
+
+/* Heading Gradient */
+.gradient-text {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Custom Button */
+.custom-btn {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+/* Input and Select Styles */
+.form-control, .form-select {
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Animation for Prediction */
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
